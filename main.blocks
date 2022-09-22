@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="ojxI)i|1.7!J{AB$gK,P" x="0" y="0"></block><block type="device_forever" id="1S54letl5G#MA#6^]LAt" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Eg+UKV)i=B}2qJ%gI6zF">P1</variable><variable id="K+TIE7,WY^aLb%4M8bJS">P2</variable></variables><block type="device_pin_event" id="Ipl=?s*~K=V9/Cn}JFok" x="-179" y="-919"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_number" id="aFW].GTVaqBH..ufEp^~"><value name="number"><shadow type="math_number" id="1=^uBe)ARcO-d_20NM[y"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="CHxP^603tEE}N@MS0wm+"><value name="number"><shadow type="math_number" id="iP!S@M*ZZz,yT`.ssI2P"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="U6OlfXC%=2#s_8WoSeBb"><value name="number"><shadow type="math_number" id="6T}Q@h)[}3A?eMda]n;*"><field name="NUM">1</field></shadow></value><next><block type="device_print_message" id="IVu1P;`CF(HSOwqrKS7("><value name="text"><shadow type="text" id="TUDY_|-%^6Q6~[_Y)msQ"><field name="TEXT">GO!!!</field></shadow></value><next><block type="device_pause" id="K23BKDwl2]3F-UcU0{n^"><value name="pause"><shadow type="timePicker" id="uB6I[Nd]/pf%7=v@/Yx0"><field name="ms">100</field></shadow><block type="device_random" id="zAve[G%62_cAOosv3B:t"><value name="min"><shadow type="math_number" id="G%=BER%)2.Zwmwahn$k8"><field name="NUM">1000</field></shadow></value><value name="limit"><shadow type="math_number" id="MVGL:3!983wXZ%Ber6L4"><field name="NUM">5000</field></shadow></value></block></value><next><block type="device_show_leds" id=",-;U]lGb-E]-nri6s_~u"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field><next><block type="device_pause" id="p6~*dSu^gK.uFfesjg{n"><value name="pause"><shadow type="timePicker" id="_J%bh$~7V_wq76x90#|y"><field name="ms">500</field></shadow></value><next><block type="device_clear_display" id="]+.4i(4U|L*OY7_.,#jN"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="QMKNM`/2rH*Pc:!#;w88" x="166" y="-290"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="9qp/5z7aoG6F;Db.s=LU"><field name="LEDS">`
+        . . # # # 
+        . . # # # 
+        . . # # # 
+        . . . # # 
+        . . . # #
+        `</field><next><block type="device_print_message" id="!T^y.jKZ+Ij)Ck8s_[o0"><value name="text"><shadow type="text" id="YcrE@164nI2Y#F-kW6b?"><field name="TEXT">GOL!!</field></shadow></value><next><block type="device_clear_display" id=",b~L[):ZMi-Y_S$X?h`@"><next><block type="variables_change" id="G%|7DPKxGKn4EDC!NHm6"><field name="VAR" id="K+TIE7,WY^aLb%4M8bJS">P2</field><value name="VALUE"><shadow type="math_number" id=";2$.GAqU.o#^7,5uD.aq"><field name="NUM">1</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="44OFb$f)p-lYfYg|yZLw" x="-276" y="-255"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="T$wE?ScAB[F`@UW/XPTs"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        # # . . . 
+        # # . . .
+        `</field><next><block type="device_print_message" id="*y_(KkI7selL%woN_ITQ"><value name="text"><shadow type="text" id="[H=rv586~AI55Ea!Nher"><field name="TEXT">GOL!!</field></shadow></value><next><block type="device_clear_display" id="0Us{x=+!CAB@*R*_eXOK"><next><block type="variables_change" id=";#t1iEwih^J:Q)p5wwQI"><field name="VAR" id="Eg+UKV)i=B}2qJ%gI6zF">P1</field><value name="VALUE"><shadow type="math_number" id="G,I3!7%//w4Rx|WG*)qB"><field name="NUM">1</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
